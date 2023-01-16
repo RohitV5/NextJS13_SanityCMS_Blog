@@ -1,10 +1,11 @@
-import React from 'react'
+import React from "react";
+import { previewData } from "next/headers";
 
 const HomePage = () => {
-  return (
-    <div>
-    </div>
-  )
-}
+  if (previewData()) {
+    return <div>Preview mode</div>;
+  }
+  return <div>Not in preview mode</div>;
+};
 
-export default HomePage
+export default HomePage;
