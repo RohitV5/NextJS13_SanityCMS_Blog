@@ -1,3 +1,4 @@
+import { myTheme } from './theme';
 import { defineConfig } from "sanity";
 import { deskTool } from "sanity/desk";
 import { visionTool } from "@sanity/vision";
@@ -16,4 +17,5 @@ export default defineConfig({
   schema: {
     types: schemaTypes,
   },
+  theme:myTheme
 });
