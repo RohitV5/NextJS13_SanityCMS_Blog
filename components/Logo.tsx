@@ -6,7 +6,7 @@ const Logo = (props: any) => {
   return (
     <div className="flex items-center space-x-2">
       <Image
-        className="object-cover rouned-full"
+        className="object-cover"
         height={50}
         width={50}
         src="/assets/images/rv.png"

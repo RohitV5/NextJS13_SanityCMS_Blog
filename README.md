@@ -8,6 +8,6 @@ Credit Links:
 https://www.youtube.com/watch?v=x3fCEPFgUSM&t=274s&ab_channel=SonnySangha
 https://www.npmjs.com/package/next-sanity#next-13-appstudio
 
-Time 34:00
+Time 1:07
 
 Sanity theming guide at https://www.sanity.io/docs/theming
