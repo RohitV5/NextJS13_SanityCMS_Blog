@@ -4,6 +4,9 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
+  images:{
+    domains:[] //add any external domains when using images from there websites
+  }
 };
 
 module.exports = nextConfig;
