@@ -5,7 +5,7 @@ const nextConfig = {
     appDir: true,
   },
   images:{
-    domains:[] //add any external domains when using images from there websites
+    domains:["cdn.sanity.io"] //add any external domains when using images from there websites
   }
 };
 

@@ -11,3 +11,5 @@ https://www.npmjs.com/package/next-sanity#next-13-appstudio
 Time 1:07
 
 Sanity theming guide at https://www.sanity.io/docs/theming
+
+React dev tools is giving issue with suspense so disable in chrome.
