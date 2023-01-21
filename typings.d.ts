@@ -15,7 +15,7 @@ interface Post extends Base {
   mainImage: Image;
   slug: Slug;
   title: string;
-  desacription: string;
+  description: string;
 }
 
 interface Author extends Base {
