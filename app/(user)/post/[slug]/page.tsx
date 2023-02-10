@@ -12,7 +12,7 @@ type Props = {
   };
 };
 
-export const revalidate = 60;  //revalidates this page every 60 seconds in SSG
+export const revalidate = 86400;  //revalidates this page every 60 seconds in SSG
 
 export async function generateStaticParams() {
   const query = groq` *[_type=='post']
