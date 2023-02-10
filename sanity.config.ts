@@ -1,3 +1,4 @@
+import { getDefaultDocumentNode } from './structure';
 import { myTheme } from './theme';
 import { defineConfig } from "sanity";
 import { deskTool } from "sanity/desk";
@@ -14,7 +15,9 @@ export default defineConfig({
   title:"rohit_content_studio",
   projectId: projectId || "",
   dataset: dataset || "",
-  plugins: [deskTool(), visionTool()],
+  plugins: [deskTool({
+    defaultDocumentNode:getDefaultDocumentNode
+  }), visionTool()],
 
   schema: {
     types: schemaTypes,
