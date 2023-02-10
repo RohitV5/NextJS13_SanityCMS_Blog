@@ -1,3 +1,5 @@
+import { PortableText } from "@portabletext/react";
+import RichTextComponent from "components/RichTextComponent";
 import groq from "groq";
 import { client } from "lib/sanity.client";
 import urlFor from "lib/urlFor";
@@ -79,6 +81,8 @@ async function Post({ params: { slug } }: Props) {
           </div>
         </div>
       </section>
+
+      <PortableText value={post.body} components={RichTextComponent}/>
     </article>
   );
 }

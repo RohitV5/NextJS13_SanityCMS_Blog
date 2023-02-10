@@ -18,5 +18,5 @@ By default every component is a server side. To mention any component as client 
 
 Add slug for each blogpost or HOC gives error and app crashes.
 
-Time 1:50
+Time 2:09
 
